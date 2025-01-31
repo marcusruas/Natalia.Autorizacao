@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Natalia.Autorizacao.API", "Natalia.Autorizacao.API\Natalia.Autorizacao.API.csproj", "{B8068B93-02DF-49A5-AA0B-C10D79B4D970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Natalia.Autorizacao.API", "Natalia.Autorizacao.API\Natalia.Autorizacao.API.csproj", "{B8068B93-02DF-49A5-AA0B-C10D79B4D970}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Natalia.Autorizacao.Domain", "Natalia.Autorizacao.Domain\Natalia.Autorizacao.Domain.csproj", "{74A2D714-2199-4047-A3BC-0B394CD8BBB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Natalia.Autorizacao.Infrastructure", "Natalia.Autorizacao.Infrastructure\Natalia.Autorizacao.Infrastructure.csproj", "{520DCA51-436B-4CED-933B-91589C567DC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Natalia.Autorizacao.Tests", "Natalia.Autorizacao.Tests\Natalia.Autorizacao.Tests.csproj", "{F1919012-5640-40A1-84A8-4F7889C22393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B8068B93-02DF-49A5-AA0B-C10D79B4D970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8068B93-02DF-49A5-AA0B-C10D79B4D970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8068B93-02DF-49A5-AA0B-C10D79B4D970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A2D714-2199-4047-A3BC-0B394CD8BBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A2D714-2199-4047-A3BC-0B394CD8BBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A2D714-2199-4047-A3BC-0B394CD8BBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A2D714-2199-4047-A3BC-0B394CD8BBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520DCA51-436B-4CED-933B-91589C567DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520DCA51-436B-4CED-933B-91589C567DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520DCA51-436B-4CED-933B-91589C567DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520DCA51-436B-4CED-933B-91589C567DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1919012-5640-40A1-84A8-4F7889C22393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1919012-5640-40A1-84A8-4F7889C22393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1919012-5640-40A1-84A8-4F7889C22393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1919012-5640-40A1-84A8-4F7889C22393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
